@@ -1,0 +1,17 @@
+{
+    "params": {
+        "coin": "ETH",
+        "chain": "ERC20",
+        "min_amount": 0.005,
+        "max_amount": 0.009,
+        "min_delay": 120,
+        "max_delay": 300
+    },
+    "auth": {
+        "key": "",
+        "secret": "",
+        "passphrase": ""
+    },
+    "url": "https://www.okx.com"
+    
+}
