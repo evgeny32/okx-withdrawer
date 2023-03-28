@@ -1,0 +1,22 @@
+{
+  "name": "okx-withdrawer",
+  "version": "1.0.0",
+  "description": "Script for automatic withdrawal of funds from the exchange okx.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeny32/okx-withdrawer.git"
+  },
+  "author": "evgeny32",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgeny32/okx-withdrawer/issues"
+  },
+  "homepage": "https://github.com/evgeny32/okx-withdrawer#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
