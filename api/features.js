@@ -81,8 +81,9 @@ class Features {
     static fileToArr(file) {
         let lines = fs.readFileSync(file).toString('UTF8').split('\n');
         lines = lines.map(line => line.trim());
-        lines.pop();
-        return lines;
+
+        //lines.pop();
+        return lines.filter(line => line != '');
     }
 
     static getRandomDecimal(min, max, precision) {
