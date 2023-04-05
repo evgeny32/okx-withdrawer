@@ -82,7 +82,6 @@ class Features {
         let lines = fs.readFileSync(file).toString('UTF8').split('\n');
         lines = lines.map(line => line.trim());
 
-        //lines.pop();
         return lines.filter(line => line != '');
     }
 
